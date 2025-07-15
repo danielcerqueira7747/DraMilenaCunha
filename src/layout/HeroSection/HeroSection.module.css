@@ -1,0 +1,56 @@
+.hero {
+  background-image: url('https://scontent-for2-2.xx.fbcdn.net/v/t39.30808-6/492536188_1042006004745665_6150571088674873585_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGxRsb2OJ5jRlptqqzLbmDx1hVYN4Y24evWFVg3hjbh6_RTybZNmJTTIi9BdxZ5DjM56HshIIGf_9vbxzygxORp&_nc_ohc=kvenrPLOUNkQ7kNvwE_VYuX&_nc_oc=AdmhEGHuv2ZNge1ohLBG0NT26-geY9-2_ZUcpsSkJXfgWeVZOl62f_a2a0EAVYfBfFg&_nc_zt=23&_nc_ht=scontent-for2-2.xx&_nc_gid=oH4IAisB8ob1smwbdl3JCQ&oh=00_AfRr687GqgeR0MTJm6jAbRBhJppFHSqx502vdw_hco_S9w&oe=687C27C0');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4); /* escurece a imagem */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #b12d35;
+}

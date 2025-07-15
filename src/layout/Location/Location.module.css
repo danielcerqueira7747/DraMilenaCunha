@@ -1,0 +1,33 @@
+.section {
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #f9f6f6, #fdfdfd);
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--color-text);
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: var(--color-neutral);
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.mapContainer {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
