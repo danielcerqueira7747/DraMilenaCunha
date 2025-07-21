@@ -1,13 +1,15 @@
 import style from './About.module.css';
 import { FaWhatsapp } from 'react-icons/fa';
 
+import AboutImage from '../../assets/image_about.jpg'
+
 export default function About() {
   return (
     <section id="about" className={style.section}>
       <div className={style.container}>
         <div className={style.imageWrapper}>
           <img
-            src="https://scontent-for2-1.xx.fbcdn.net/v/t39.30808-1/492196579_1035281522084780_3670839138614976109_n.jpg?stp=c0.114.853.853a_dst-jpg_s720x720_tt6&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=4iTf-eEG8PIQ7kNvwHrSGLt&_nc_oc=Adm6XgzrgorFHyVBeogRYxltrp7vYLVPyKactBYohcuGMD2TNJDS8qPc92-Qtnr8HNo&_nc_zt=24&_nc_ht=scontent-for2-1.xx&_nc_gid=qGptZ60a3y662hSi8htl9A&oh=00_AfShCP_MyVcTld0m8Ctmq9RnjazZYXE6xHlgRw9jSe_ILg&oe=687C232B"
+            src={AboutImage}
             alt="Dra. Milena Cunha"
             className={style.image}
           />
