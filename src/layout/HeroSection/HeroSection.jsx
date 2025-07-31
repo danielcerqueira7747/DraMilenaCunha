@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className={style.content}>
           <h1 className={style.title}>Prevenir. Cuidar. Transformar vidas.</h1>
           <p className={style.subtitle}>
-            Tratamento de obesidade, saúde do coração e qualidade de vida com carinho e ciência.
+            Tratamento de obesidade, saúde do coração e qualidade de vida com acolhimento e ciência.
           </p>
           <a
             id='btn-whatsapp-herosection'
